@@ -34,10 +34,16 @@ from challonge.tournament import *
 
 def main():
         t=tournament();
+
+        #### Construct index
         url=t._index(test=2,test2=3);
-        #option = t._index(test=2,test2=3);
-        #url = t._url_construct(option);
         print (url);
+        
+        #### Construct create
+        #url=t._create(test=2,test2=3);
+        #print (url);
+
+
 
 def usage():
 
