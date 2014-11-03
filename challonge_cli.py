@@ -33,7 +33,11 @@ from challonge.tournament import *
 #print(body)
 
 def main():
-        Tournament.index("test arg test arg")
+        t=tournament();
+        url=t._index(test=2,test2=3);
+        #option = t._index(test=2,test2=3);
+        #url = t._url_construct(option);
+        print (url);
 
 def usage():
 
