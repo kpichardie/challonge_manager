@@ -36,7 +36,7 @@ def main():
         t=tournament();
 
         #### Construct index
-        url=t._index(test=2,test2=3);
+        url=t.index(test=2,test2=3);
         print (url);
         
         #### Construct create

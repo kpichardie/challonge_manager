@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- 
 
-class common_lib():
+class Common():
 
     def __init__(self):
         self = self
