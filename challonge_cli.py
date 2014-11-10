@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- 
 
-import pycurl
-from StringIO import StringIO
+#import pycurl
+#from StringIO import StringIO
 import argparse
 from challonge.tournament import *
 
