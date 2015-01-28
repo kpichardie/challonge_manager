@@ -6,8 +6,6 @@ class Common(object):
     def __init__(self):
         self._model = None 
 
-    def _url_construct(self, url_options):
-        url = "https://api.challonge.com/v1/"
-        full_url = "%s%s.xml?%s" % (url, self._model, url_options) 
-        return full_url
-
+    def _url_construct(self, username, api_key, url_options):
+        url = "https://%s:%s@api.challonge.com/v1/" % (username, api_key)
+        return "%s%s.xml?%s" % (url, self.model, url_options)

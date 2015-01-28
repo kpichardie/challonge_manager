@@ -33,11 +33,11 @@ from challonge.tournament import *
 #print(body)
 
 def main():
-        t=tournament();
+        t = Tournament(username='vinek', api_key='szhCM5VLKqatUbjre1rGR3hqgLmHYh1en8LJayK0');
 
         #### Construct index
-        url=t.index(test=2,test2=3);
-        print (url);
+        print(t.index(state=2,type=3))
+        print(t.create())
         
         #### Construct create
         #url=t._create(test=2,test2=3);
